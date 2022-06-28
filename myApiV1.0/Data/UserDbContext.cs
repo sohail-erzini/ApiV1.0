@@ -12,7 +12,7 @@ namespace myApiV1._0.Data
         }
 
         public DbSet<user> Users { get; set; }
-
+        // 
         protected override void OnModelCreating(ModelBuilder modelBuilder)
         {
             modelBuilder.Entity("myApiV1._0.Models.user", b =>
